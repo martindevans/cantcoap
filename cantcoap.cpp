@@ -102,9 +102,9 @@ CoapPDU::CoapPDU() {
 
  * \sa CoapPDU::CoapPDU(), CoapPDU::CoapPDU(uint8_t *buffer, int bufferLength, int pduLength)
  */
-CoapPDU::CoapPDU(uint8_t *pdu, int pduLength) : CoapPDU(pdu,pduLength,pduLength) {
+/* CoapPDU::CoapPDU(uint8_t *pdu, int pduLength) : CoapPDU(pdu,pduLength,pduLength) {
 	// delegated to CoapPDU::CoapPDU(uint8_t *buffer, int bufferLength, int pduLength)
-}
+} */
 
 /// Construct object from external buffer that may be larger than actual PDU.
 /**
